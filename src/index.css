@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --main-font: 'Lexend', sans-serif;
+  }
+  
+*,body {
+    font-family: var(--main-font);
+  }
+
+  .card {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .Dimas{
+    --animate-delay: 0.3s;
+  }
+  .Satria{
+    --animate-delay: 0.7s;
+  }
+ .trans {
+    --animate-delay:0.9s;
+ }
+ .card-1 {
+    --animate-delay: 1.3s;
+ }
+ .card-2 {
+    --animate-delay: 1.9s;
+ }

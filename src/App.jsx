@@ -1,9 +1,14 @@
 import "./App.css";
+import Head from "./components/head";
+import Card from "./components/utils/Card";
 
 function App() {
   return (
-    <section className=" h-screen flex justify-center items-center">
-      <h1 className="text-2xl p-2 font-bold">test</h1>
+    <section className="bg-slate-900 text-[#dddd] h-screen flex w-full">
+      <div className="flex justify-center items-center w-full gap-10">
+        <Head />
+        <Card/>
+      </div>
     </section>
   );
 }
