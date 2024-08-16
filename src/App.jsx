@@ -1,7 +1,7 @@
 import "./App.css";
 import Head from "./components/utils/head";
 import Card from "./components/utils/Card";
-import CardSocial from "./components/utils/cardSocial";
+import CardSocial from "./components/utils/CardSocial";
 import Bg from "./components/utils/Bg";
 
 function App() {
