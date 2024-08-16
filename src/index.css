@@ -13,13 +13,13 @@
   .card {
     background-color: rgba(255, 255, 255, 0.1);
   }
-  .Dimas{
+  .q{
     --animate-delay: 0.3s;
   }
-  .Satria{
+  .w{
     --animate-delay: 0.7s;
   }
- .trans {
+ .e {
     --animate-delay:0.9s;
  }
  .card-1 {
