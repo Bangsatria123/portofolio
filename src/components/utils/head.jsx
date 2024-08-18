@@ -6,12 +6,12 @@ const Head = () => {
 	return (
 		<div className='flex flex-col gap-10 max-h-screen w-full overflow-hidden mt-10 head'>
 			<div className='container  grid grid-cols-2 z-10 gap-14'>
-				<div className='container justify-center items-center flex '>
+				<div className='container justify-center items-center flex animate__animated animate__fadeIn animate__delay-1s '>
 					<img
 						src={images1}
 						width={500}
 						height={500}
-						className='rounded-full border-[.5em] border-[#bbb] shadow-red-700 shadow-inner'
+						className='rounded-full'
 					/>
 				</div>
 				<div
@@ -30,7 +30,7 @@ const Head = () => {
 					</div>
 					<div className='flex flex-col gap-9 head2'>
 						<h1 className='text-5xl animate__animated animate__delay-1s animate__fadeIn'>
-							Front-end Web Developer
+							Frontend Web Developer
 						</h1>
 						<h1 className='text-2xl animate__animated animate__delay-1s animate__fadeInUp'>
 							self taught developer who focuses on javascript based web
