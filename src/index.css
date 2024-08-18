@@ -8,7 +8,10 @@
   
 *,body {
     font-family: var(--main-font);
+    scroll-behavior: smooth;
+    animation-duration: 700;
   }
+
 
   .card {
     background-color: rgba(255, 255, 255, 0.1);
@@ -27,4 +30,16 @@
  }
  .card-2 {
     --animate-delay: 1.9s;
+ }
+ .head {
+  --animate-delay:0.5s;
+ }
+ .head2 {
+  --animate-delay:0.9s;
+ }
+ .imgabout {
+  --animate-delay: 0.7s ;
+ }
+ .imgabout2 {
+  --animate-delay: 1s ;
  }

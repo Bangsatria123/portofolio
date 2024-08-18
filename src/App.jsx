@@ -2,22 +2,26 @@ import "./App.css";
 import Head from "./components/utils/head";
 import Card from "./components/utils/Card";
 import CardSocial from "./components/utils/CardSocial";
-import Bg from "./components/utils/Bg";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
 	return (
 		<>
-			
-			<section className='bg-slate-900 text-[#dddd] flex w-full gap-[5rem] m-auto flex-col overflow-hidden '>
-				<div className='flex flex-col justify-center items-center w-full gap-10 h-screen z-20'>
-					<div className='flex'>
+			<section className='bg-slate-900 text-[#dddd] *:mb-5 flex w-full flex-col overflow-hidden'>
+				<div id='navbar'>
+					<Navbar />
+				</div>
+				<div className='flex flex-col items-center justify-center w-full gap-10 h-screen z-20'>
+					<div className='flex justify-center items-center'>
 						<Head />
-						<Card />
-					</div>
-					<div className='flex justify-center items-center w-full gap-10'>
-						<CardSocial />
 					</div>
 				</div>
+				<div id="about">
+					<Card />
+				</div>
+				{/* <div className='flex justify-center items-center w-full gap-10'>
+					<CardSocial />
+				</div> */}
 			</section>
 		</>
 	);
