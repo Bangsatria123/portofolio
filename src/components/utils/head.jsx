@@ -23,7 +23,7 @@ const Head = () => {
 						</h1>
 						<h1 className='px-5 font-semibold animate__fadeInRight animate__animated w animate__delay-1s '>
 							SATRIA
-							<span className='text-red-700 animate__animated animate__delay-2s animate__bounceIn '>
+							<span className=' animate__animated animate__delay-2s animate__bounceIn '>
 								.
 							</span>
 						</h1>

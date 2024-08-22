@@ -10,6 +10,8 @@
     font-family: var(--main-font);
     scroll-behavior: smooth;
     animation-duration: 700;
+    padding:0;
+    margin:0;
   }
 
 
@@ -42,4 +44,15 @@
  }
  .imgabout2 {
   --animate-delay: 1s ;
+ }
+
+ span {
+  color: #65D6FF ;
+  font-weight: bold;
+ }
+
+ #imageSkill img {
+  max-width: 5rem;
+  max-height: 70px;
+  min-height: 70px;
  }
