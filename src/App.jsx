@@ -3,11 +3,12 @@ import Head from "./components/utils/head";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/about";
 import Skill from "./components/skills";
+import Contact from "./components/contact";
 
 function App() {
 	return (
 		<>
-			<div className='bg-slate-900 text-[#dddd] *:mb-5 flex w-full flex-col overflow-hidden'>
+			<div className='bg-slate-900 text-[#dddd] *:mb-5 m-auto flex w-full flex-col overflow-hidden gap-20'>
 				<div id='navbar'>
 					<Navbar />
 				</div>
@@ -21,6 +22,9 @@ function App() {
 				</div>
 				<div id="skills">
 					<Skill/>
+				</div>
+				<div id="Contact">
+					<Contact/>
 				</div>
 			</div>
 		</>
