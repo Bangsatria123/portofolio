@@ -8,7 +8,7 @@ const Skill = () => {
       <div className=" flex justify-center items-center">
           <h1 className="text-3xl"><span>My</span> Skills <span>:</span></h1>
       </div>
-      <div className="flex justify-center items-center mt-12 gap-16">
+      <div className="flex flex-col md:flex-col lg:flex-row justify-center items-center mt-12 gap-16">
         <Frontend/>
         <Backend/>
       </div>
