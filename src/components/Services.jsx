@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div className='h-screen border pt-10'>
+    <div className='h-screen  pt-10'>
       <div className="flex justify-center items-center flex-col">
         <div className="flex justify-center items-center">
           <h1 className='text-3xl gap-3'>

@@ -11,7 +11,7 @@ import node from "../image/portofolio/nodejs-icon-svgrepo-com.svg"
 const Backend = () => {
 	return (
 		<div>
-			<div className=' flex mt-2 flex-col bg-[#ddd] bg-opacity-5  py-16 px-0 md:px-10 lg:px-16 h-[25em] md:h-[28em] lg:w-[35em] md:w-[25em] w-[20em] rounded-lg'>
+			<div className=' flex mt-2 flex-col bg-[#ddd] bg-opacity-5  py-16 px-0 md:px-10 lg:px-16 h-[28em] md:h-[28em] lg:w-[35em] md:w-[25em] w-[20em] rounded-lg'>
 				<h1 className='text-xl font-bold justify-center items-center flex'>
 					BackEnd
 				</h1>

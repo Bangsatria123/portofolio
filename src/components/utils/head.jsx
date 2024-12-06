@@ -33,7 +33,7 @@ const Head = () => {
 							Frontend Web Developer
 						</h1>
 						<h1 className='text-2xl animate__animated animate__delay-1s animate__fadeInUp'>
-							self taught developer who focuses on javascript based web
+							self taught developer who focuses on javascript (React) based web
 							development.
 						</h1>
 					</div>

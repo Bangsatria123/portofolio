@@ -9,7 +9,7 @@ import Services from "./components/Services";
 function App() {
 	return (
 		<>
-			<div className='bg-slate-900 text-[#dddd] *:mb-5 m-auto flex w-full flex-col overflow-hidden gap-20'>
+			<div className='bg-slate-900 text-[#dddd] *:mb-5 m-auto flex w-full flex-col overflow-hidden gap-24'>
 				<div id='navbar'>
 					<Navbar />
 				</div>
@@ -24,9 +24,9 @@ function App() {
 				<div id="skills">
 					<Skill/>
 				</div>
-				<div id="Services">
+				{/* <div id="Services">
 					<Services/>
-				</div>
+				</div> */}
 				<div id="Contact">
 					<Contact/>
 				</div>
