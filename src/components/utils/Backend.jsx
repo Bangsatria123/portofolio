@@ -1,8 +1,9 @@
 import React from "react";
 import next from "../image/porto/next-removebg-preview.png"
-import sql from '../image/porto/MySQL.png'
+import sql from '../image/portofolio/mysql-svgrepo-com.svg'
 import prisma from "../image/porto/images-removebg-preview.png"
 import ts from "../image/porto/Typescript_logo_2020.svg.png"
+import node from "../image/portofolio/nodejs-icon-svgrepo-com.svg"
 
 
 
@@ -10,7 +11,7 @@ import ts from "../image/porto/Typescript_logo_2020.svg.png"
 const Backend = () => {
 	return (
 		<div>
-			<div className=' flex mt-2 flex-col bg-[#ddd] bg-opacity-5  py-16 px-0 md:px-10 lg:px-16 h-[25em] lg:w-[35em] md:w-[25em] w-[20em] rounded-lg'>
+			<div className=' flex mt-2 flex-col bg-[#ddd] bg-opacity-5  py-16 px-0 md:px-10 lg:px-16 h-[25em] md:h-[28em] lg:w-[35em] md:w-[25em] w-[20em] rounded-lg'>
 				<h1 className='text-xl font-bold justify-center items-center flex'>
 					BackEnd
 				</h1>
@@ -21,6 +22,7 @@ const Backend = () => {
 					<img src={sql} className="w-[75px] md:w-[90px] lg:w-[100px] h-auto" />
 					<img src={prisma} className="w-[75px] md:w-[90px] lg:w-[100px] h-auto" />
 					<img src={ts} className="w-[75px] md:w-[90px] lg:w-[100px] h-auto" />
+					<img src={node} className="w-[75px] md:w-[90px] lg:w-[100px] h-auto" />
 					</div>
 			</div>
 		</div>

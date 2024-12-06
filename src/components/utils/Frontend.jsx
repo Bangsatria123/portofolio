@@ -1,12 +1,10 @@
 import React from "react";
-import html from "../image/porto/logo html.png"
-import css from "../image/porto/css.png"
-import js from "../image/porto/js.png"
-import react from "../image/porto/react.png"
-import bootstrap from "../image/porto/bootstrap.png"
-import tailwind from "../image/porto/tailwind.png"
-import ts from "../image/porto/Typescript_logo_2020.svg.png"
-
+import html from "../image/portofolio/html-1.svg"
+import css from "../image/portofolio/css-3.svg"
+import js from "../image/portofolio/logo-javascript.svg"
+import react from "../image/portofolio/react-2.svg"
+import bootstrap from "../image/portofolio/bootstrap-fill.svg"
+import tailwind from "../image/portofolio/tailwind-svgrepo-com.svg"
 
 
 const Frontend = () => {

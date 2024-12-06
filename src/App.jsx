@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import About from "./components/about";
 import Skill from "./components/skills";
 import Contact from "./components/contact";
-import Project from "./components/project";
+import Services from "./components/Services";
 
 function App() {
 	return (
@@ -24,8 +24,8 @@ function App() {
 				<div id="skills">
 					<Skill/>
 				</div>
-				<div id="Project">
-					<Project/>
+				<div id="Services">
+					<Services/>
 				</div>
 				<div id="Contact">
 					<Contact/>
